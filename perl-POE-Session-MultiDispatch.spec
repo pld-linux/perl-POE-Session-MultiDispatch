@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	POE
-%define	pnam	Session-MultiDispatch
+%define		pdir	POE
+%define		pnam	Session-MultiDispatch
 Summary:	POE::Session::MultiDispatch - callback dispatch for session events
 Summary(pl):	POE::Session::MultiDispatch - wysy³anie callbacka dla zdarzeñ sesji
 Name:		perl-POE-Session-MultiDispatch
