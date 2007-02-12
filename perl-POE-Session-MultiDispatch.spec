@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Session-MultiDispatch
 Summary:	POE::Session::MultiDispatch - callback dispatch for session events
-Summary(pl):	POE::Session::MultiDispatch - wysy³anie callbacka dla zdarzeñ sesji
+Summary(pl.UTF-8):   POE::Session::MultiDispatch - wysyÅ‚anie callbacka dla zdarzeÅ„ sesji
 Name:		perl-POE-Session-MultiDispatch
 Version:	1.3
 Release:	2
@@ -32,12 +32,12 @@ may have multiple handlers associated with it. Fine control over the
 order of execution is available using helper methods that extend the
 interface of a POE::Session.
 
-%description -l pl
-POE::Session::MultiDispatch to zamiennik POE::Session dodaj±cy
-funkcjonalno¶æ wysy³ania callbacków do sesji POE. Ka¿de zdarzenie mo¿e
-mieæ wiele powi±zanych ze sob± funkcji obs³ugi. Dostêpna jest dobra
-kontrola nad kolejno¶ci± wykonywania przy u¿yciu metod pomocniczych
-rozszerzaj±cych interfejs POE::Session.
+%description -l pl.UTF-8
+POE::Session::MultiDispatch to zamiennik POE::Session dodajÄ…cy
+funkcjonalnoÅ›Ä‡ wysyÅ‚ania callbackÃ³w do sesji POE. KaÅ¼de zdarzenie moÅ¼e
+mieÄ‡ wiele powiÄ…zanych ze sobÄ… funkcji obsÅ‚ugi. DostÄ™pna jest dobra
+kontrola nad kolejnoÅ›ciÄ… wykonywania przy uÅ¼yciu metod pomocniczych
+rozszerzajÄ…cych interfejs POE::Session.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
