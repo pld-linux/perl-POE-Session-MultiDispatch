@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Session-MultiDispatch
 Summary:	POE::Session::MultiDispatch - callback dispatch for session events
-Summary(pl.UTF-8):   POE::Session::MultiDispatch - wysyłanie callbacka dla zdarzeń sesji
+Summary(pl.UTF-8):	POE::Session::MultiDispatch - wysyłanie callbacka dla zdarzeń sesji
 Name:		perl-POE-Session-MultiDispatch
 Version:	1.3
 Release:	2
