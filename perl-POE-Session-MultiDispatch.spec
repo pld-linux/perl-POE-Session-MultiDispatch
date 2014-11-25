@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	POE
 %define		pnam	Session-MultiDispatch
+%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Session::MultiDispatch - callback dispatch for session events
 Summary(pl.UTF-8):	POE::Session::MultiDispatch - wysyłanie callbacka dla zdarzeń sesji
 Name:		perl-POE-Session-MultiDispatch
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	59b2e2614c3a048d4ad5d0bd87ecd044
+URL:		http://search.cpan.org/dist/POE-Session-MultiDispatch/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
