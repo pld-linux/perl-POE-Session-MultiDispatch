@@ -4,7 +4,6 @@
 
 %define		pdir	POE
 %define		pnam	Session-MultiDispatch
-%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Session::MultiDispatch - callback dispatch for session events
 Summary(pl.UTF-8):	POE::Session::MultiDispatch - wysyłanie callbacka dla zdarzeń sesji
 Name:		perl-POE-Session-MultiDispatch
