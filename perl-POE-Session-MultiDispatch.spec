@@ -8,7 +8,7 @@ Summary:	POE::Session::MultiDispatch - callback dispatch for session events
 Summary(pl.UTF-8):	POE::Session::MultiDispatch - wysyłanie callbacka dla zdarzeń sesji
 Name:		perl-POE-Session-MultiDispatch
 Version:	1.3
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
